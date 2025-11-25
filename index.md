@@ -9,34 +9,35 @@ layout: default
    </h2>
    <div class="cards-list">
       
-  <a class="card-link content content-1" href="twitter.md">
-         <img src="{{ '/assets/img/icon.svg' | relative_url }}" alt="Twitter Logo" class="card-logo">
+  <a class="card-link content content-1" href="{{ '/bio/' | relative_url }}">
+         <img src="{{ '/assets/img/icon.svg' | relative_url }}" alt="BI Logo" class="card-logo">
          <h2>
             Bioinformatics
          </h2>
          <p>
-            Ommics workflows, Drug Design projects
+            Omics, Drug Design, Comparative Genomics, Biomedical image analysis, Computational Neuroscience
          </p>
   </a>
       
-  <a class="card-link content content-2" href="instagram.md">
-      <img src="{{ '/assets/img/icon.svg' | relative_url }}" alt="Twitter Logo" class="card-logo">
+  <a class="card-link content content-2" href="{{ '/ml/' | relative_url }}">
+      <img src="{{ '/assets/img/icon.svg' | relative_url }}" alt="ML Logo" class="card-logo">
       <h2>
         Machine Learning
       </h2>
       <p>
-        Deep Learning
+        Deep Learning algorithms, Unsupervised learning in Biomedical imaging, Microscopy cell image segmentation, Protein modeling, Amino acid-based LLMs
       </p>
   </a>
 
-  <a class="card-link content content-3" href="youtube.md">
-      <img src="{{ '/assets/img/icon.svg' | relative_url }}" alt="Twitter Logo" class="card-logo">
+  <a class="card-link content content-3" href="{{ '/sys/' | relative_url }}">
+      <img src="{{ '/assets/img/icon.svg' | relative_url }}" alt="CS Logo" class="card-logo">
       <h2>
-        Tech
+        Systems & Ops
       </h2>
       <p>
-        Watch tutorials, demos, and project videos.
+        Workflow management systems, Containerization, HPC and Slurm, Cloud, MLOps
       </p>
   </a>
+
    </div>
 </div>

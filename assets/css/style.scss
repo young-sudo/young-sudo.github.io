@@ -387,6 +387,13 @@ footer {
 .content-3:hover a{
   color: #FA5053;
 }
+.content-4:hover{
+  border-color: #FF1D78; 
+  background: #FF1D78;
+}
+.content-4:hover a{
+  color: #FF1D78;
+}
 
 /* 4. Responsive Layout (No change needed as it's already vertical) */
 /* The media query is now obsolete since the layout is already stacked, but you can keep it if you expect 
@@ -409,3 +416,17 @@ footer {
   display: block; 
 }
 
+// palettes from https://www.figma.com/colors/
+
+
+// Back botton
+.back-link {
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.8;
+}
+.back-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
