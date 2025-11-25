@@ -430,3 +430,28 @@ footer {
   opacity: 1;
   text-decoration: underline;
 }
+
+
+// About me button
+.about-wrapper {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.about-btn {
+  display: inline-block;
+  padding: 8px 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background: none;
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.about-btn:hover {
+  background: black;
+  color: white;
+}
