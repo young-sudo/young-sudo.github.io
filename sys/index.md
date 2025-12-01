@@ -5,15 +5,16 @@ layout: default
 
 # Systems & Ops
 
-* Workflow management systems
+(work-in-progress)
+
+* Workflow management systems explainer and templates / best practices etc
     * Snakemake
     * Nextflow
-* Containerization
+* Containerization explainers and templates
     * Docker
     * Apptainer
-* HPC, SSH and workload managers (Slurm)
-* APIs
+* HPC, SSH and workload managers (Slurm) explainers and templates
+* REST API in Python template
 
-(work-in-progress)
 
 <a href="javascript:history.back()" class="back-link">← Back</a>

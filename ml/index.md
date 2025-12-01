@@ -8,18 +8,14 @@ layout: default
 * Deep Learning fundamentals
     * Gradient descent and backpropagation
     * CNNs (with Adversarial Training and Sparse TopK)
-    * 
     * Transformers (Attention and Differential Attention)
     * Reinforcement learning - PPO and RND
-* Data mining fundamentals
-    * Association rules learning
-    * SVD in recommender systems
-    * Data clustering and feature selection
-* Natural Language Processing
-    * Text mining - DTM, TF-IDF, LSA/LSI
-    * Text representation learning - embeddings (word2vec, CBOW, GloVe, skip-gram)
-    * Hidden Markov Models (HMMs)
-* Time-series and forecasting alogrithms
+
+* Multi-omic models
+* Unsupervised learning in Biomedical imaging (Fundus glaucoma VAE)
+* Microscopy cell image segmentation (UNet)
+
+* Drug Design = Protein modeling (Alphafold2) + Amino acid-based LLMs (ProtGPT2)
 
 (work-in-progress)
 

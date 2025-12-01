@@ -20,21 +20,12 @@ layout: default
 </div>
 
 
-* Omics
-    * Genomics (assembly, mapping)
-    * Epigenomics (CHIP-seq, ATAC-seq)
-    * Transcriptomics (bulk, single-cell, spatial)
-    * Proteomics (mass spectrometry)
-* Metagenomics
-* Drug Design
-* Comparative Genomics
-* Computational Neuroscience
-* Deep Learning in Life Sciences
-    * Multi-omic models
-    * Unsupervised learning in Biomedical imaging (Fundus glaucoma VAE)
-    * Microscopy cell image segmentation (UNet)
-    * Protein modeling (Alphafold2)
-    * Amino acid-based LLMs (ProtGPT2)
+* Genomics (assembly, mapping) workflow
+* scRNA-seq workflow in R
+* Visium spatial transcriptomics
+* Comparative Genomics - phyloGen workflow
+* Computational Neuroscience simulations (IF, HH, BCM)
+
 
 (work-in-progress)
 
