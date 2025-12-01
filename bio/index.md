@@ -5,6 +5,21 @@ layout: default
 
 # Bioinformatics
 
+<div class="subcards-container">
+<a class="subcard" href="{{ '/bio/genomics/' | relative_url }}">
+  <img src="{{ '/assets/img/icon.svg' | relative_url }}" class="subcard-logo">
+  <h2>NGS algorithms</h2>
+  <p>Lightweight assembly and mapping algorithm and workflow implementation</p>
+</a>
+
+<a class="subcard" href="{{ '/bio/genomics/' | relative_url }}">
+  <img src="{{ '/assets/img/icon.svg' | relative_url }}" class="subcard-logo">
+  <h2>scRNA-seq</h2>
+  <p>Reproducible workflow for scRNA-seq analysis in R</p>
+</a>
+</div>
+
+
 * Omics
     * Genomics (assembly, mapping)
     * Epigenomics (CHIP-seq, ATAC-seq)
