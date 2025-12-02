@@ -555,22 +555,29 @@ footer {
   text-transform: uppercase;
   line-height: 1;
 }
-
 .flag-left {
   display: flex;
   align-items: center;
   padding: 6px 8px;
   background: black;     /* shields.io-style left block */
 }
-
 .flag-left img {
   width: 16px;
   height: 16px;
 }
-
 .flag-right {
   display: flex;
   align-items: center;
   padding: 6px 10px;
   color: #ffffff;       /* shields.io text color */
+}
+
+
+.profile-photo {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.profile-photo:hover img{
+  filter: invert(1);
 }
