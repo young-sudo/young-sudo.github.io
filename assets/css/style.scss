@@ -365,6 +365,9 @@ footer {
   border-color: white;
   background: white;
 }
+.card-link:hover h2{
+  color: white;
+}
 /* Hover Colors for each card */
 .content-1:hover{
   border-color: #50C878;
@@ -515,12 +518,17 @@ footer {
 
 .subcard h3 {
   font-family: 'Montserrat',sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 500;
   margin: 5px 0;
   letter-spacing: 0.3px;
   text-transform: none;
 }
+
+.subcard:hover h3{
+  color: white;
+}
+
 
 .subcard p {
   font-family: 'Poppins',sans-serif;
