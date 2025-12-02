@@ -1,9 +1,8 @@
 ---
-title: genomics
+title: htskit-mini
 layout: default
 ---
 
-Coming soon.
+Sample
 
 <a href="javascript:history.back()" class="back-link">← Back</a>
-
