@@ -14,9 +14,9 @@ layout: default
          <h2>
             Bioinformatics
          </h2>
-         <p>
+         <!-- <p>
             Omics, Drug Design, Comparative Genomics, Biomedical image analysis, Computational Neuroscience
-         </p>
+         </p> -->
   </a>
       
   <a class="card-link content content-2" href="{{ '/ml/' | relative_url }}">
@@ -24,9 +24,9 @@ layout: default
       <h2>
         Machine Learning
       </h2>
-      <p>
+      <!-- <p>
         Deep Learning algorithms, Unsupervised learning in Biomedical imaging, Microscopy cell image segmentation, Protein modeling, Amino acid-based LLMs
-      </p>
+      </p> -->
   </a>
 
   <a class="card-link content content-3" href="{{ '/sys/' | relative_url }}">
@@ -34,9 +34,9 @@ layout: default
       <h2>
         Systems & Ops
       </h2>
-      <p>
+      <!-- <p>
         Workflow management systems, Containerization, HPC and Slurm, Cloud, MLOps, REST APIs
-      </p>
+      </p> -->
   </a>
 
    </div>

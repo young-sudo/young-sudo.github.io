@@ -459,15 +459,32 @@ footer {
 
 
 /* Sub-cards inside section pages */
+// .subcards-container {
+//   max-width: 900px;
+//   margin: 0 auto;
+//   padding: 20px 0;
+// }
+
 .subcards-container {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px 0;
+
+  display: grid;
+  grid-template-columns: 1fr;   /* 1 per row by default */
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .subcards-container {
+    grid-template-columns: 1fr 1fr;  /* 2 per row on laptop-sized screens */
+  }
 }
 
 .subcard {
   display: block;
-  max-width: 350px;
+  max-width: 400px;
+  min-height: 180px;
   margin: 20px auto;
   padding: 16px 20px;
   
@@ -495,19 +512,19 @@ footer {
   margin: 0 auto 12px;
 }
 
-/* Titles smaller, NOT uppercase */
+
 .subcard h3 {
   font-family: 'Montserrat',sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  margin: 10px 0;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 5px 0;
   letter-spacing: 0.3px;
   text-transform: none;
 }
 
 .subcard p {
   font-family: 'Poppins',sans-serif;
-  font-size: 15px;
-  line-height: 1.4em;
+  font-size: 12px;
+  line-height: 1.3em;
   margin: 0;
 }
