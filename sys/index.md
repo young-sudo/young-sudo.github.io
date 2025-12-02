@@ -16,5 +16,3 @@ layout: default
 * HPC, SSH and workload managers (Slurm) explainers and templates
 * REST API in Python template
 
-
-<a href="javascript:history.back()" class="back-link">← Back</a>

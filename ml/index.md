@@ -19,4 +19,3 @@ layout: default
 
 (work-in-progress)
 
-<a href="javascript:history.back()" class="back-link">← Back</a>

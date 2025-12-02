@@ -30,7 +30,7 @@ I'm driven by curiosity with experience in international research collaborations
 </div>
 
 <div style="text-align: center;">
-<h2>Programming</h2>
+<h2>Languages</h2>
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=R&logoColor=white" alt="R">
@@ -39,8 +39,4 @@ I'm driven by curiosity with experience in international research collaborations
   <img src="https://img.shields.io/badge/SAS-007CC3?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="SAS">
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=coffeescript&logoColor=white" alt="Java">
 </p>
-</div>
-
-<div>
-<a href="javascript:history.back()" class="back-link">← Back</a>
 </div>

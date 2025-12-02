@@ -3,7 +3,5 @@ title: genomics
 layout: default
 ---
 
-Coming soon.
-
-<a href="javascript:history.back()" class="back-link">← Back</a>
+This section is coming soon.
 

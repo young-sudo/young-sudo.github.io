@@ -1,5 +1,5 @@
 ---
-title: scrna-mel
+title: neuro-sim
 layout: default
 ---
 

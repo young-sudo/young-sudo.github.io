@@ -1,7 +1,5 @@
 ---
-title: scrna-mel
+title: phylogen
 layout: default
 ---
-
-Sample
 
