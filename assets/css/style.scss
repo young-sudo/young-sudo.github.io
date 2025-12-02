@@ -419,6 +419,11 @@ footer {
   display: block; 
 }
 
+.card-link:hover .card-logo {
+  /* Invert colors on hover for visibility against colored backgrounds */
+  filter: invert(1);
+}
+
 // palettes from https://www.figma.com/colors/
 
 
@@ -513,6 +518,10 @@ footer {
   height: 45px;    /* keeps them visually smaller */
   display: block;
   margin: 0 auto 12px;
+}
+
+.subcard:hover .subcard-logo {
+  filter: invert(1);
 }
 
 
