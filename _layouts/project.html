@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<!-- <h1>{{ page.title }}</h1> -->
+
+<div id="readme-content">
+  Loading README...
+</div>
+
+<!-- MathJax -->
+<script>
+window.MathJax = {
+tex: {
+    processEscapes: true,   // important!
+    displayMath: [['$$', '$$']],
+    inlineMath: [['$', '$']]
+},
+svg: { fontCache: 'global' }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+
+const repo = "{{ page.repo_url }}";
+const rawUrl = `https://raw.githubusercontent.com/${repo}/main/README.md`;
+
+fetch(rawUrl)
+.then(res => res.text())
+.then(md => {
+
+    // split into segments
+    // LaTeX blocks $$...$$ and normal Markdown
+    const segments = md.split(/(\$\$[\s\S]+?\$\$)/g);
+
+    let html = '';
+
+    segments.forEach(seg => {
+    if (seg.startsWith('$$') && seg.endsWith('$$')) {
+        // math block: leave untouched for MathJax
+        html += seg + '\n';
+    } else {
+        // normal Markdown
+        html += marked.parse(seg, { 
+        mangle: false,
+        headerIds: false,
+        breaks: true,
+        gfm: true,
+        xhtml: false,
+        smartLists: true,
+        sanitize: false
+        });
+    }
+    });
+
+    document.getElementById("readme-content").innerHTML = html;
+
+    // render LaTeX
+    MathJax.typeset();
+});
+
+    
+</script>
