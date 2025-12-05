@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="61.829906mm"
-   height="61.829914mm"
-   viewBox="0 0 61.829906 61.829914"
+   width="61.82991mm"
+   height="61.829918mm"
+   viewBox="0 0 61.82991 61.829918"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -12,25 +12,22 @@
    xmlns:svg="http://www.w3.org/2000/svg"><defs
      id="defs1" /><g
      id="layer1"
-     transform="translate(-3.3948692,-6.9518393)"><path
+     transform="translate(-3.4194866,-6.0463517)"><path
        style="opacity:1;fill:none;stroke:#000000;stroke-width:3.52778;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="M 5.158759,8.7157292 V 67.017862 H 63.460888 V 8.7157292 Z"
+       d="M 5.1833765,7.8102414 V 66.112374 H 63.485505 V 7.8102414 Z"
        id="path1" /><path
-       style="fill:none;stroke:#000000;stroke-width:5.29167;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
-       d="M 13.685028,27.532763 H 54.934619"
+       style="fill:none;stroke:#000000;stroke-width:5.09075;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 15.246166,26.67906 h 38.17655"
        id="path2" /><path
        style="fill:none;stroke:#000000;stroke-width:3.96875;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
-       d="M 20.420259,33.705991 H 31.440168"
+       d="M 21.778491,34.947705 H 32.7984"
        id="path2-6" /><path
        style="fill:none;stroke:#000000;stroke-width:3.96875;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
-       d="m 26.409851,39.217759 h 11.01991"
+       d="m 28.824486,42.570055 h 11.01991"
        id="path2-6-3" /><path
        style="fill:none;stroke:#000000;stroke-width:3.96875;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
-       d="M 31.556501,44.729527 H 42.576408"
-       id="path2-6-3-3" /><path
-       style="fill:none;stroke:#000000;stroke-width:3.96875;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
-       d="m 36.785424,50.399793 h 11.01991"
-       id="path2-6-3-3-4-0-7" /></g><style
+       d="M 36.253163,49.991928 H 47.27307"
+       id="path2-6-3-3" /></g><style
      type="text/css"
      id="style1">
 	.st0{fill:#000000;}
