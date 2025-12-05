@@ -493,6 +493,7 @@ footer {
   display: block;
   max-width: 400px;
   min-height: 180px;
+  min-width: 100%;
   margin-top: 7px;
   margin-bottom: 7px;
   margin-left: auto;
@@ -539,7 +540,8 @@ footer {
   font-family: 'Poppins',sans-serif;
   font-size: 12px;
   line-height: 1.3em;
-  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 0px;
 }
 
 
