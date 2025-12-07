@@ -2,3 +2,32 @@
 title: HPC
 layout: default
 ---
+
+<h1>High-Performance Computing (HPC)</h1>
+
+<p style="margin-bottom: 10px;"></p>
+<img src="https://img.shields.io/badge/HPC-42A5F5?style=for-the-badge&logo=serverfault&logoColor=white" alt="HPC Badge">
+</p>
+
+<p style="text-align: justify;">
+HPC systems provide large-scale, parallel computing resources via multi-node clusters. 
+Jobs are scheduled through systems like SLURM, PBS, or LSF, enabling efficient execution of computationally heavy workloads.
+Understanding modules, job submission scripts, queues, and resource allocation is essential for running workflows at scale.
+</p>
+
+<h2>Quick Practical Guide</h2>
+<ul>
+  <li>Load software via <code>module load</code> to access compilers, Python, R, and tools.</li>
+  <li>Submit jobs with a scheduler (e.g., SLURM): <code>sbatch job.sh</code>.</li>
+  <li>Request resources explicitly: CPUs, memory, GPUs, walltime.</li>
+  <li>Monitor jobs with <code>squeue</code>, <code>sacct</code>, or equivalent commands.</li>
+  <li>Use containers (Apptainer) for consistent environments across compute nodes.</li>
+</ul>
+
+<h3>Working with Workflows & Containers</h3>
+<ul>
+  <li><strong>Nextflow:</strong> Run pipelines on HPC by selecting a SLURM/PBS/LSF profile. Nextflow handles job submission automatically and maps processes to compute nodes.</li>
+  <li><strong>Apptainer:</strong> Use Apptainer containers to provide consistent environments without needing root privileges. Perfect for clusters where Docker is not allowed.</li>
+  <li><strong>Docker → Apptainer:</strong> Build images locally with Docker, then convert using <code>apptainer build my.sif docker://image</code> for HPC compatibility.</li>
+  <li><strong>Parallel scaling:</strong> Use workflow engines to distribute tasks across many nodes, letting the scheduler handle queuing and resource allocation.</li>
+</ul>

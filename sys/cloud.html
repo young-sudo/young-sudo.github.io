@@ -2,3 +2,38 @@
 title: Cloud
 layout: default
 ---
+
+<h1>Cloud Computing</h1>
+
+<p style="margin-bottom: 10px;">
+<!-- <img src="https://img.shields.io/badge/Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Cloud Badge"> -->
+<img src="https://img.shields.io/badge/AWS-ff6200?style=for-the-badge&logo=icloud&logoColor=white" alt="AWS Badge">
+<img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Cloud Badge">
+<img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Azure Badge">
+</p>
+
+<p style="text-align: justify;">
+Cloud platforms (AWS, GCP, Azure) provide on-demand compute, storage, and scalable workflow execution. 
+They enable elastic resource provisioning, pay-per-use usage, and managed services such as batch computing, object storage, and workflow runners. 
+Combined with containers and orchestration tools, the cloud supports reproducible, large-scale data processing.
+</p>
+
+<h2>Quick Practical Guide</h2>
+<ul>
+  <li>Use object storage (e.g., S3/GCS) for datasets instead of local disks.</li>
+  <li>Provision compute on-demand: VMs, managed batch jobs, or serverless functions.</li>
+  <li>Run workflows using managed services like AWS Batch, GCP Batch, or Nextflow Tower.</li>
+  <li>Use IAM roles/permissions to control access securely.</li>
+  <li>Automate environment setup with Terraform or cloud-init scripts.</li>
+</ul>
+
+<h3>Running Pipelines with Cloud & Containers</h3>
+<ul>
+  <li><strong>Nextflow:</strong> Seamlessly targets cloud backends (AWS Batch, Google Life Sciences, Azure Batch). The same pipeline definition runs both on-prem and in the cloud.</li>
+  <li><strong>Docker:</strong> Use Docker images stored in registries (GitHub, Docker Hub, AWS ECR) to guarantee reproducible cloud compute environments.</li>
+  <li><strong>Apptainer:</strong> Convert Docker images when moving hybrid workloads between cloud and HPC systems.</li>
+  <li><strong>Elastic scaling:</strong> Combine object storage (S3/GCS) and autoscaling compute to execute massive workflow parallelization without cluster limits.</li>
+</ul>
+
+
+<p>For more details, visit the <a href="https://aws.amazon.com/getting-started/" target="_blank">AWS Getting Started Guide</a>, <a href="https://cloud.google.com/getting-started" target="_blank">GCP Getting Started Guide</a>, or <a href="https://learn.microsoft.com/en-us/azure/?product=popular" target="_blank">Azure Getting Started Guide</a>.</p>

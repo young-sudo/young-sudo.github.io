@@ -2,3 +2,26 @@
 title: Singularity / Apptainer
 layout: default
 ---
+
+<h1>Singularity/Apptainer</h1>
+
+<p style="margin-bottom: 10px;">
+<img src="https://img.shields.io/badge/Apptainer-2E6CE6?style=for-the-badge&logo=linuxcontainers&logoColor=white" alt="Apptainer Badge">
+</p>
+
+<p style="text-align: justify;">
+Apptainer is a container runtime designed for HPC environments where Docker is not suitable. 
+It runs containers as non-root users, ensuring security and compatibility on shared clusters. 
+Apptainer can pull and convert Docker images, making it the standard container solution for scientific computing workflows.
+</p>
+
+<h2>Quick Practical Guide</h2>
+<ul>
+  <li>Pull existing images: <code>apptainer pull image.sif docker://ubuntu:22.04</code>.</li>
+  <li>Run containers without root on HPC using <code>apptainer exec</code> or <code>run</code>.</li>
+  <li>Build <code>.sif</code> images from Dockerfiles for reproducibility.</li>
+  <li>Bind paths (e.g., <code>--bind /data</code>) to access HPC storage.</li>
+  <li>Use in workflow engines: Snakemake (<code>container:</code>) and Nextflow (<code>singularity.enabled = true</code>).</li>
+</ul>
+
+<p>For more details, visit the <a href="https://apptainer.org/docs/user/latest/" target="_blank">official Apptainer documentation</a>.</p>

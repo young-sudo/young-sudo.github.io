@@ -2,3 +2,25 @@
 title: Nextflow
 layout: default
 ---
+
+<h1>Nextflow</h1>
+
+<p style="margin-bottom: 10px;">
+    <img src="https://img.shields.io/badge/Nextflow-23CC85?style=for-the-badge&logo=nextflow&logoColor=white" alt="Nextflow">
+</p>
+
+<p style="text-align: justify;">
+Nextflow is a workflow orchestration system designed for complex, containerized, and distributed data analysis pipelines. 
+DSL2 provides modular, reusable components, allowing clear separation of processes and workflows. 
+Nextflow supports reproducibility through Docker/Singularity/Conda, and scales seamlessly across HPC schedulers and major cloud platforms via the Nextflow Tower ecosystem.
+</p>
+
+<h2>Quick Practical Guide</h2>
+<ul>
+  <li>Start with a DSL2 structure: separate <code>modules/</code> for processes and <code>workflows/</code> for orchestration.</li>
+  <li>Use <code>params</code> for command-line configuration and <code>nextflow.config</code> for environment profiles.</li>
+  <li>Run with containers: <code>docker.enabled = true</code> or <code>singularity.enabled = true</code>.</li>
+  <li>Execute locally with <code>nextflow run .</code> and scale to HPC/cloud simply by switching profiles.</li>
+  <li>Use Nextflow Tower to monitor pipelines, logs, and runtime metrics.</li>
+</ul>
+<p>For more details, visit the <a href="https://www.nextflow.io/docs/latest/index.html" target="_blank">official Nextflow documentation</a>.</p>

@@ -2,3 +2,25 @@
 title: Snakemake
 layout: default
 ---
+
+<h1>Snakemake</h1>
+
+<p style="margin-bottom: 10px;">
+<img src="https://img.shields.io/badge/Snakemake-333333?style=for-the-badge&logo=python&logoColor=white" alt="Snakemake">
+</p>
+
+<p style="text-align: justify;">
+Snakemake is a Python-based workflow engine for building reproducible, scalable, and portable data pipelines. 
+It uses Make-like rules, automatically manages dependencies, and supports parallel execution on local machines, clusters, and cloud backends. 
+Its YAML/JSON configuration, conda/Apptainer integration, and powerful DAG engine make it ideal for bioinformatics pipelines.
+</p>
+
+<h2>Quick Practical Guide</h2>
+<ul>
+  <li>Create a <code>Snakefile</code> with rules describing inputs, outputs, and commands.</li>
+  <li>Use wildcards to generalize rules across many samples.</li>
+  <li>Define a config file (<code>config.yaml</code>) to separate parameters from logic.</li>
+  <li>Run locally with <code>snakemake -j</code> or submit to HPC using <code>--cluster</code> profiles.</li>
+  <li>Use <code>conda:</code> or <code>container:</code> in rules for reproducible environments.</li>
+</ul>
+<p>For more details, visit the <a href="https://snakemake.readthedocs.io/en/stable/" target="_blank">official Snakemake documentation</a>.</p>

@@ -2,3 +2,40 @@
 title: Docker
 layout: default
 ---
+
+<h1>Docker</h1>
+
+<p style="margin-bottom: 10px;">
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+</p>
+
+<p style="text-align: justify;">
+Docker packages software and its dependencies into portable, reproducible containers. 
+It eliminates “works on my machine” issues by isolating environments, enabling reliable execution across laptops, servers, and cloud systems. 
+In workflow pipelines, Docker ensures version-locked environments, consistent builds, and easy deployment.
+</p>
+
+<h2>Quick Practical Guide</h2>
+<ul>
+  <li>Create a <code>Dockerfile</code> that installs your tools and sets the runtime environment.</li>
+  <li>Build with <code>docker build -t name:tag .</code>.</li>
+  <li>Run tools consistently anywhere using <code>docker run</code>.</li>
+  <li>Use multi-stage builds to reduce image size.</li>
+  <li>Publish to Docker Hub or GitHub Container Registry for workflows or collaborators.</li>
+</ul>
+
+<h3>Docker Compose</h3>
+<p>
+  A lightweight orchestrator for defining and running multi-container setups using a single
+  <code>docker-compose.yml</code> file. Ideal for linking services like databases, APIs, and workers during development.
+</p>
+
+<h4>Quick Practical Guide</h4>
+<ul>
+  <li>Define services, networks, and volumes in <code>docker-compose.yml</code>.</li>
+  <li>Start everything with <code>docker compose up</code> and stop with <code>docker compose down</code>.</li>
+  <li>Use environment files (<code>.env</code>) to configure variables cleanly.</li>
+  <li>Perfect for reproducible local dev environments or small-scale orchestration.</li>
+</ul>
+
+<p>For more details, visit the <a href="https://docs.docker.com/" target="_blank">official Docker documentation</a>.</p>
