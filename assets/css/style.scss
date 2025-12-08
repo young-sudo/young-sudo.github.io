@@ -327,7 +327,7 @@ footer {
 
 .card-link h2{
   font-size: 20px;
-  margin: 16px 0;
+  margin: 15px 0;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: black;
@@ -417,7 +417,9 @@ footer {
   width: 70px; 
   height: 70px;
   /* Apply margins for spacing, matching the old icon spacing */
-  margin: 16px auto; 
+  margin: auto;
+  margin-top: 13px auto;
+  margin-bottom: 5px; 
   /* Ensure the image is treated as a block for proper vertical centering/stacking */
   display: block; 
 }
