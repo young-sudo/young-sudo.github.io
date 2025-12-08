@@ -305,7 +305,8 @@ footer {
   max-height: 180px;
   /* Center the card horizontally within the container */
   margin: 20px auto;
-  
+  place-items: center;
+  display: grid;
   padding: 20px;
   border: 2px solid black;
   border-radius: 4px;
