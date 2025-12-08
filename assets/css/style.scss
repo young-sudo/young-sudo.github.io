@@ -300,9 +300,10 @@ footer {
   /* Ensures the card behaves like a block and is centered */
   display: block; 
   /* Set a fixed max-width for the card */
-  max-width: 400px; 
+  max-width: 400px;
+  max-height: 300px;
   /* Center the card horizontally within the container */
-  margin: 20px auto; 
+  margin: 20px auto;
   
   padding: 20px;
   border: 2px solid black;
